@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:layout_marginRight="30dp"
     android:layout_marginLeft="30dp"
-    android:layout_marginTop="30dp">
+    android:layout_marginTop="30dp"
+    >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,15 +86,16 @@
         android:id="@+id/pemasukan_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Simpan"
         android:layout_marginTop="50dp"
-        android:backgroundTint="#3F51B5"
-        android:text="Simpan" />
+        android:background="@color/green" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F44336"
-        android:onClick="toHome"
-        android:text="Kembali" />
+        android:text="Kembali"
+        android:layout_marginTop="10dp"
+        android:background="@color/red"
+        android:onClick="toHome" />
 
 </LinearLayout>

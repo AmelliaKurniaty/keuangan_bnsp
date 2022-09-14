@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CashFlowActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +20,7 @@
         android:textStyle="bold"
         android:textSize="10pt"
         android:textColor="@color/black"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewCashflow"
         android:layout_width="match_parent"
@@ -28,6 +30,8 @@
         android:onClick="toHomeee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kembali"/>
+        android:text="Kembali"
+        android:background="@color/red"
+        android:textColor="@color/white"/>
     </LinearLayout>
 </ScrollView>

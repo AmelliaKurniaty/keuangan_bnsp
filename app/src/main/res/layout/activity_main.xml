@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_marginLeft="30dp"
     android:layout_marginRight="30dp"
-    tools:context="com.MainActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_marginTop="10dp"
@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rangkuman Bulan Ini"
+            android:text="Cashflow Bulanan"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textAlignment="center"
@@ -29,7 +29,6 @@
             android:layout_height="wrap_content"
             android:text="Pemasukan: "
             android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="9pt"/>
         <TextView
@@ -38,7 +37,6 @@
             android:layout_height="wrap_content"
             android:text="Pengeluaran: "
             android:textColor="@color/colorAccent"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="9pt"/>
     </LinearLayout>
@@ -63,7 +61,7 @@
                 android:padding="20dp"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/gain"/>
+                android:src="@drawable/income1"/>
             <TextView
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
@@ -83,7 +81,7 @@
                 android:padding="20dp"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/loss"/>
+                android:src="@drawable/expenditure"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -108,7 +106,7 @@
                 android:padding="20dp"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/budget"/>
+                android:src="@drawable/detail"/>
             <TextView
                 android:layout_marginTop="10dp"
                 android:textColor="@color/black"
@@ -128,7 +126,7 @@
                 android:padding="20dp"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/setting"/>
+                android:src="@drawable/settings"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

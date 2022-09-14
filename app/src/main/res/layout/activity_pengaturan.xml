@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pengaturan"
-            android:textSize="10pt"
+            android:textSize="14pt"
             android:textColor="@color/black"
             android:textStyle="bold"/>
         <TextView
@@ -26,12 +26,13 @@
             android:textStyle="bold"
             android:textSize="9pt"
             android:textColor="@color/black"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="10dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Password Saat ini"
             android:textStyle="bold"
+            android:layout_marginTop="10dp"
             android:textSize="8pt"
             android:textColor="@color/black" />
         <EditText
@@ -61,16 +62,19 @@
             android:id="@+id/setting_save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Simpan"
             android:layout_marginTop="30dp"
-            android:backgroundTint="#3F51B5"
-            android:text="Simpan" />
+            android:background="@color/blue"
+            android:textColor="@color/white" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#F44336"
-            android:onClick="toHome"
-            android:text="Kembali" />
+            android:text="Kembali"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:onClick="toHome" />
     </LinearLayout>
     <RelativeLayout
         android:layout_marginBottom="30dp"
@@ -90,7 +94,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tentang Aplikasi"
+                android:text="About this App"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="10pt"/>
@@ -98,7 +102,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Aplikasi ini dibuat oleh:\nNama\t: Tsany Alwan A\nNIM\t\t : 1741720148"
+                android:text="Aplikasi ini dibuat oleh:\nNama\t: Amellia Kurniaty \nNIM\t\t : 2141727017"
                 android:textSize="8pt"
                 android:textColor="@color/black"/>
         </LinearLayout>

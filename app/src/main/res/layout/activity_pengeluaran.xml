@@ -85,15 +85,16 @@
         android:id="@+id/pengeluaran_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Simpan"
         android:layout_marginTop="50dp"
-        android:backgroundTint="#3F51B5"
-        android:text="Simpan" />
+        android:background="@color/green" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F44336"
-        android:onClick="toHomee"
-        android:text="Kembali" />
+        android:text="Kembali"
+        android:layout_marginTop="10dp"
+        android:background="@color/red"
+        android:onClick="toHomee" />
 
 </LinearLayout>
